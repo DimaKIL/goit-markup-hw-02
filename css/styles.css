@@ -1,0 +1,130 @@
+body {
+    font-family: 'Raleway',
+            sans-serif;
+    font-family: 'Roboto',
+            sans-serif;
+    width: 1600px;
+    background: #FFFFFF;
+}
+/* отдельные елементы */
+.menu-link, .header-mail, .header-tel{
+    list-style: none;
+  }
+.menu .link{
+ color:   #212121;
+ text-decoration: none;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+}
+/* шапка */
+.header{
+    position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+display: flex;
+background: #FFFFFF;
+
+}
+.logo{
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+text-decoration: none;
+color: #212121;
+letter-spacing: 0.03em;
+}
+.logo-web{
+    color: #2196F3;
+}
+.menu{
+
+width: 294px;
+height: 16px;
+left: 453px;
+top: 32px;
+display: flex;
+
+margin: 32px 853px 32px 453px;
+}
+.menu-link:not(:last-child){
+    margin: 0px 50px 0px 0px;
+}
+.menu .link:hover,
+.menu .link:focus {
+  color: #2196F3;
+}
+/* contact */
+.header-contact{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.header-mail{
+    position: absolute;
+    width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+}
+.header-tel{
+    position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+}
+.header-contact .link{
+    text-decoration: none;
+    color: #757575;
+}
+.header-contact .link:hover,
+.header-contact .link:focus{
+    color: #2196F3;
+}
+/* main */
+.biznes{
+    position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: #2F303A;
+}
+.main-h{
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
