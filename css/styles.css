@@ -112,6 +112,7 @@ body {
   color: var(--white-color);
 }
 .main-button {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -204,6 +205,7 @@ body {
 }
 
 .footer-mail {
+  font-style: normal;
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -212,6 +214,7 @@ body {
   color: var(--color-a-grey);
 }
 .footer-tel {
+  font-style: normal;
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -229,6 +232,7 @@ body {
 }
 /* портфолио */
 .filter-button {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
